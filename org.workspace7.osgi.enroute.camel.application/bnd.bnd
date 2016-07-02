@@ -1,0 +1,32 @@
+#
+#  APPLICATION
+#
+
+Bundle-Version: 1.0.0.${tstamp}
+Bundle-Description: An enRoute implementation of Camel based Application using Declarative Services \
+	
+
+Private-Package: \
+	org.workspace7.osgi.enroute.camel.application,\
+	org.workspace7.osgi.enroute.camel.application.routes
+
+EnRoute-Application: 	org.workspace7.osgi.enroute.camel
+JPM-Command:			camel
+
+-includeresource: \
+	{readme.md}, \
+	{configuration=configuration}, \
+	{/=static}
+
+-buildpath: \
+	osgi.enroute.base.api,\
+	org.apache.camel.camel-core;version=2.17,\
+	org.apache.camel.camel-core-osgi;version=2.17,\
+	slf4j.api,\
+	org.apache.camel.camel-scr
+	
+-testpath: \
+	osgi.enroute.junit.wrapper;version=4.12
+	
+Bundle-Name: OSGi enRoute Camel Application
+Export-Package: org.workspace7.osgi.enroute.camel.application.metatypes

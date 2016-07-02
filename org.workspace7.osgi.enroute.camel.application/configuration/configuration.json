@@ -1,0 +1,11 @@
+[
+	
+	{
+		"service.pid": "org.workspace7.osgi.enroute.camel",
+		"camelContextId": "enroute-camel-sample",
+		"camelRouteId": "enroute-camel-timer",
+		"active": true,
+		"from": "timer://enRouteDemo?delay=5s",
+		"to": "log:enrouteLog"
+	}
+]

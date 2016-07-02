@@ -1,0 +1,3 @@
+org.apache.camel:camel-core:2.17.1
+org.apache.camel:camel-core-osgi:2.17.1
+org.apache.camel:camel-scr:2.17.1

@@ -1,0 +1,5 @@
+{
+ "revisionRefs":[{
+  "artifactId":"org.apache.felix.framework","baseline":"5.4.0","bsn":"org.apache.felix.framework","created":1444749841201,"description":"OSGi R6 framework implementation.","errors":1,"groupId":"org.apache.felix","md5":"513858186228327AFC785D941FD80664","name":"Apache Felix Framework","phase":"MASTER","revision":"EB85121A1F35E8C03CB2A6024FC3101E641456E9","size":678521,"urls":["http://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.framework/5.4.0/org.apache.felix.framework-5.4.0.jar"],"version":"5.4.0"
+ }]
+}
